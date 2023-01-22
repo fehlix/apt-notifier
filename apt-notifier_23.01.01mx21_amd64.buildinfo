@@ -1,20 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: apt-notifier
 Binary: apt-notifier
 Architecture: all source
-Version: 22.12.01mx21
+Version: 23.01.01mx21
 Checksums-Md5:
- 169f4baa28060bb8dbcdb9947bb608cb 696 apt-notifier_22.12.01mx21.dsc
- 2e01a9cf9a181717efbf1f4779571411 233140 apt-notifier_22.12.01mx21_all.deb
+ 2d1212e95ed7f8a2174063743e716836 1608 apt-notifier_23.01.01mx21.dsc
+ cfd7f5e561446946816df175f24b83e7 233156 apt-notifier_23.01.01mx21_all.deb
 Checksums-Sha1:
- cfc7f47247efb5634a6917bec995756e229dadbf 696 apt-notifier_22.12.01mx21.dsc
- 6c4395974aa8e90def4fa3ce355a23ca92c208a9 233140 apt-notifier_22.12.01mx21_all.deb
+ e5559cfed5c0e49801ba33c5daacb059185c41ef 1608 apt-notifier_23.01.01mx21.dsc
+ 5c2531617f72f8d4ad4fe273af8d217a18bf44ec 233156 apt-notifier_23.01.01mx21_all.deb
 Checksums-Sha256:
- efa42148f8b9c5c4a057465e79403c840819037dbe044b602c3d599a94851ef5 696 apt-notifier_22.12.01mx21.dsc
- be81867a28cff69da7eb7a0d21df47f460df1cafb8de28c5591bb8b7e5571336 233140 apt-notifier_22.12.01mx21_all.deb
+ 133ac6519744c80588a2620f1d810ac8ccf61c45cd06309ec1b316895e7eb4f6 1608 apt-notifier_23.01.01mx21.dsc
+ 3c2f9d4ae215163dd1d786e50ee46c3c6bb87b9539ca9b7c1866b183ae7401fd 233156 apt-notifier_23.01.01mx21_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 29 Dec 2022 22:41:04 +0100
+Build-Date: Sun, 22 Jan 2023 22:28:05 +0100
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -431,4 +434,22 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1672345792"
+ SOURCE_DATE_EPOCH="1674421383"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmPNqm8THGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6awaEACq2UPYuNryI1PiX9cV9TdyLLowEv9G
+A4LqBl1S82owSH92T4OcuF2rMt0PVqyQJ0OTdN637+jPHjzSyyV5hcRkyJTbLpO0
+5YXWOag3VW+71DQCnnP6AGULn20p/gSu5LavM+Oj25J2bDovIGY7ptC9ULaBh5XE
+Z9J5qtKUZgSMJNlR7nArUS81sZ2wwTDgVeS8IW8c8J0xjNLAlZH4RLUyFDRenPHW
+xr3srr3X3uHCbb/7os4Ng3onncJ40Clqrb+D8v9z37vcXKrtiBATY6EQbGVxAClF
+/8myzJZJunZm00JxVepORKnyAD+pFDemgtaMIpJZHUw4NTNtCQKDmdPtnHPGyTCK
+dVJeoyCTn7BvT4bxaEVl7ZzxtPuvCcxAoQPUPZXhTDCa3Pztz9OGSk32UmIvL5rK
+lSycmeJ9xL+z+M1XMSHql9PqvUbxYgBXaEhU/AavsRwwU8Ggk8UKZWcCimYfv+Hd
+d7A+3Tz84sejleVVcIEE02If30K02EkQe+PK5AADu3Ppg4jpdk9UO0T5FdRdwZwr
+cHWMylvh6ahra8knxxdHYbsmsqep6oD2CMV9L+yc84B5UkYKEmTxTlWd3uq2atPH
+jbhefibm6EC0r7jS3eLQsUs9r5NQnMMyJhTRHVfEiN+Ayh+QlVUFjFv0AYHiEhn5
+htyYE8J+Mk7d4A==
+=kVt9
+-----END PGP SIGNATURE-----
