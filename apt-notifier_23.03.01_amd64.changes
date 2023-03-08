@@ -1,0 +1,61 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 08 Mar 2023 14:35:52 -0500
+Source: apt-notifier
+Binary: apt-notifier
+Architecture: source all
+Version: 23.03.01
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ apt-notifier - tray applet to notify of system and application updates
+Changes:
+ apt-notifier (23.03.01) mx; urgency=medium
+ .
+   * fix quick-live-update
+   * add check for last apt update run
+   * add 03apt-notifier-update-stamp
+   * adjust forced check to 3 hours
+   * add debhelper-compat (= 13) to build-depends
+   * use shutil.which instead of distutils.spawn.find_executable
+   * add python3-ewmh as depends to detect fullscreen
+   * remove python3-distutils from build-depends
+   * translations refresh
+Checksums-Sha1:
+ e7c9232749c10174fdc661cffc8edad6b9218da2 1617 apt-notifier_23.03.01.dsc
+ f688fbb35d75650e0b02ae58f183c77c10eeb387 135420 apt-notifier_23.03.01.tar.xz
+ c378bf9e9d63d132b995de44241c4eba809f74f3 234040 apt-notifier_23.03.01_all.deb
+ dce7c763690a8572f396f0b2ed7f50e859c87944 14006 apt-notifier_23.03.01_amd64.buildinfo
+Checksums-Sha256:
+ 3a19adeffc56931e55766480443d6ec6959c26dbfec42583237bc24f2d7546fd 1617 apt-notifier_23.03.01.dsc
+ b02d2422e6417e3ab5836ad7ac33833f2e6413cc18bfff579e39b050bc77c021 135420 apt-notifier_23.03.01.tar.xz
+ b000e3950fad03f6e74f8d4777269cf799cba57d85c6d1eb5cb948b1f19c8b0b 234040 apt-notifier_23.03.01_all.deb
+ 01b09ce4328de5f04f07594c942e11f4da871b1450cad68d3db57292c6d3de42 14006 apt-notifier_23.03.01_amd64.buildinfo
+Files:
+ 101c894c651408fa116172e96974991b 1617 admin optional apt-notifier_23.03.01.dsc
+ 6461ce5952af6e27f9d090b9a5d9ead1 135420 admin optional apt-notifier_23.03.01.tar.xz
+ 597bf62a6c345b5ba5b981a2cd3e19fe 234040 admin optional apt-notifier_23.03.01_all.deb
+ 71dd2744089a7354f6e87909b02b1032 14006 admin optional apt-notifier_23.03.01_amd64.buildinfo
+Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmQI9G4THGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6dJkD/4kSFqIeMhnlPCZ5OFCBIkBii718ts9
+sft9SZUSiPOWfFhlhqaIaZHEGnkG5MQVRBbsO8t5ciOb6YKirVb0+gEhTO1THBLy
+Hpm5c0sr42YzXqMDcxeLqCMFO/I4gghxaCG/rtAwqfz/hbAPompPAz1M3uflSQbs
+GFMxVoYBGSX23ekwnMydzpULPdk1fr7II4eCPgLbGyxZe7WQyYnxgTG3zib49ZX+
+BIhBS865838tegeGYlnDWxaF6NBwMo0KPMYuk7mVl70KutYuhwvJXc3RhQsJjEFa
+VyQpYw/FC8b9dupNRpfRMCUl8iAGoZ6G0M9sc0JUpQVQmq3qqXOQpcXfusYAlf7+
+oMq6TkZy+rCsTXRt4vMDd+WDMayqMGoZYAKFlf0uP54ZUalrqwHnam9HaENaWK+y
+1Du5pBIScyVTt2JWlKD8pmmRNgXNTWoe+qe3liPGrH2l+WUWS18s8aC2AaX3bJ9L
+c9+cvLqKjJ2wEoOeTQqTnifv/hSMiIRmDJzDTgBSV9YWVu0Fm29g9VqCEVc4o2fI
+vF/S93g+lYHF+kqWDCQIgh7VZOg9x8/u99W8lwAhZ8U5HwkePWs9fUOwvBpbkXUV
+bAr0y1hhfviDzPuGcwTN5fSMz6g4im0R8jP82xR+xZeNb0SwD8s+9hByeZ9GAzfH
+Aozcx+NbDQi1Fw==
+=TCv7
+-----END PGP SIGNATURE-----

@@ -5,19 +5,19 @@ Format: 1.0
 Source: apt-notifier
 Binary: apt-notifier
 Architecture: all source
-Version: 23.03
+Version: 23.03.01
 Checksums-Md5:
- 0676e6d6c3d41acbba55b638014bca00 1605 apt-notifier_23.03.dsc
- b8d1af9c21dfe309dab0aa624cf70ec4 233512 apt-notifier_23.03_all.deb
+ 101c894c651408fa116172e96974991b 1617 apt-notifier_23.03.01.dsc
+ 597bf62a6c345b5ba5b981a2cd3e19fe 234040 apt-notifier_23.03.01_all.deb
 Checksums-Sha1:
- 712d154ca465b71d1b6549c00ff089b2b430a3d3 1605 apt-notifier_23.03.dsc
- 3f5a0fcba573eda92ce2f58cd63682a1cdc98317 233512 apt-notifier_23.03_all.deb
+ e7c9232749c10174fdc661cffc8edad6b9218da2 1617 apt-notifier_23.03.01.dsc
+ c378bf9e9d63d132b995de44241c4eba809f74f3 234040 apt-notifier_23.03.01_all.deb
 Checksums-Sha256:
- 311bbc08dcaac71b8a1a3592e7e9c8b638adff24ea7edb52af2992e43f6f5c55 1605 apt-notifier_23.03.dsc
- 916c1b064a5c1829a79dd5cce67a3d76cf3d6d6ff56d9974b2434f4e03136b66 233512 apt-notifier_23.03_all.deb
+ 3a19adeffc56931e55766480443d6ec6959c26dbfec42583237bc24f2d7546fd 1617 apt-notifier_23.03.01.dsc
+ b000e3950fad03f6e74f8d4777269cf799cba57d85c6d1eb5cb948b1f19c8b0b 234040 apt-notifier_23.03.01_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Sun, 05 Mar 2023 01:16:56 +0100
+Build-Date: Wed, 08 Mar 2023 21:47:33 +0100
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
@@ -257,7 +257,7 @@ Installed-Build-Depends:
  libnsl-dev (= 1.3.0-2),
  libnsl2 (= 1.3.0-2),
  libnspr4 (= 2:4.29-1),
- libnss3 (= 2:3.61-1+deb11u2),
+ libnss3 (= 2:3.61-1+deb11u3),
  libnuma1 (= 2.0.12-1+b1),
  libobjc-10-dev (= 10.2.1-6),
  libobjc4 (= 10.2.1-6),
@@ -318,7 +318,7 @@ Installed-Build-Depends:
  libtext-iconv-perl (= 1.7-7+b1),
  libthai-data (= 0.1.28-3),
  libthai0 (= 0.1.28-3),
- libtiff5 (= 4.2.0-1+deb11u3),
+ libtiff5 (= 4.2.0-1+deb11u4),
  libtinfo6 (= 6.2+20201114-2),
  libtirpc-common (= 1.3.1-1+deb11u1),
  libtirpc-dev (= 1.3.1-1+deb11u1),
@@ -369,7 +369,7 @@ Installed-Build-Depends:
  libz3-4 (= 4.8.10-1),
  libzip4 (= 1.7.3-1),
  libzstd1 (= 1.4.8+dfsg-2.1),
- linux-libc-dev (= 6.1.11-1~mx21+1),
+ linux-libc-dev (= 6.1.12-1~mx21ahs),
  login (= 1:4.8.1-1),
  lsb-base (= 11.1.0),
  m4 (= 1.4.18-5),
@@ -434,22 +434,22 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1677715145"
+ SOURCE_DATE_EPOCH="1678304152"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmQD34ETHGZlaGxpeEBt
-eGxpbnV4Lm9yZwAKCRAvV48brJ2b6ZYSD/wL+fQtKDv2G8KOThClMXqFN8+8Xlg2
-cDZcFjv9ToTiYbzTeXEQ6ULSoTzYlDnU9TuDZA0++yghKKognZmSn1Zdla/XSVo2
-63Dx0xtUcS1SooLxyoT/DZvGvKm6DE9ZhqsGrGtwQTJ3YU5VcKq7xjZ+3zFwKUTu
-iRX5M8hNp0mJUdz3ATZZ4+zNNBYNLGV+b5TRT+g4EHVKOY8Cehpc3N8vFRmXpFhf
-KvyVBCeUWQh5i2axGfB1CAatAkIZckhyWu4Wm9ZX1uzLfMmUPcG7N4gFDI6Qm6Fo
-KyGD7TMxz37xWQyaJJkyzr/wxuKRwCgMukTOvnTl4F18NTEyFiMQY9sJwohehKYF
-KmIjyl/H+QhZcPOIMnu6z9PCL2D8BNzQz+WUhZSyTc8m5AZa+cFPBoOsku4WY1f9
-eGHgEK+pE0iDQ8tyWwzC+VBH2YTzWt8JZV0x2OV77uCjKMr09+radAJ/MUA8zbW8
-IPlmF6avLWFXtJwzFL6vCauX8C49TXs7THUHjJStyyyqEP03JAkygkWQh3EcOZk3
-orZeO1j4IQ3owL5rqZiVX2BwqII74HpzUoXeSScJIaHvAf4ZFe5piWpwTglL16ln
-3PBaoscKLJLJ/vjZig3zuA6c5EZ6tEYXJmuixrP1sxhzHJ18wOnkFHQ8M4GGYRUg
-Lvgt8G9Qpg7B8Q==
-=TkrP
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmQI9G4THGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6WzXD/9NRglhPVLQSnrSvvmi+Ea9IZVYXH1o
+6rHFX/x+mPBOgO2X4YygaDoRyMI4fQjaXaRzZfkeg2GDoN6lhO1qFuiJd8LmNmhO
+FWrL6TsnvBJC5aPpbSRIJ3sMN6xYP1eVkWg6V2B9TPbT4ba2Lx+ev+ITX43VOPP3
++xriB3CJuwWxIu6vNQDpQ9bRBbcUZoNNt1MtbEr24+cRJX1s56jHCsqOs36eY+iY
+D7cGIg2G3IAgeQFL11sC5UFu5s2Ycj8c9dL0a7V80hodhFqq80h2kFVUPqaPbGoD
+Ri4GcXkc9hcubUBVEEx7GcjPK39Wq282Dec0YHnDp3M7NvmPOMIZAj6HBuKNFj/B
+I41JxcCdWyPGltuKNKtkyfrlIETDbg8l3XmgczF6NGtczWa7d8m1CHEspFVjvDNQ
+R1x4auF2O7lN1vA5YZfWRxgbY1iDhF3KG8oFBoINX0XVuqjgwdUqrmEeNXLcd/s7
+JFzBipySFE56VljsDzgZzVAzLPJmajGxQ6POSh7tiMy2BAWnMTkFt2LsnaSRlN2U
+TJxIqFOXlPEfRHkON2auSRi6waBRZWwmX8H2HPwIXa1kPl1Cf8m+GN2c0/klYSzc
+WWe4G21lZ+9fL5qOaen6EbnFnBaw42GyEn4RVR8GOr4GuH3qw63fTd9szkT2gZ/Y
+XuBl0s0eOi38Zg==
+=W32W
 -----END PGP SIGNATURE-----
