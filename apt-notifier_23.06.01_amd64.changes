@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 10 Jun 2023 15:36:00 -0500
+Source: apt-notifier
+Binary: apt-notifier
+Architecture: source all
+Version: 23.06.01
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ apt-notifier - tray applet to notify of system and application updates
+Changes:
+ apt-notifier (23.06.01) mx; urgency=medium
+ .
+   * set apt as default
+Checksums-Sha1:
+ fab43777b2327c9aac17726fa3a9c2c843119226 1617 apt-notifier_23.06.01.dsc
+ 98aba476431dfed1123390f66677cab2558fba65 135604 apt-notifier_23.06.01.tar.xz
+ e2941080e2300a3c54a9a718bd2aef4b510b1b32 234424 apt-notifier_23.06.01_all.deb
+ 06cd59336c667299b4a656c2f3225419a91d7c86 11759 apt-notifier_23.06.01_amd64.buildinfo
+Checksums-Sha256:
+ 424cf3b5121e6614783864cb6c3428866adf4d2efee39ff0c542d234bae3d03e 1617 apt-notifier_23.06.01.dsc
+ 8c0a8595a0d552d89ac3e6aa1cc9c5d0bdacd2f7eca6a4bbf7eea47735d93d63 135604 apt-notifier_23.06.01.tar.xz
+ 5c644f7018d6226aa6028ed8a238c0e45bb42e248fe03cd3bd82deb13fce48af 234424 apt-notifier_23.06.01_all.deb
+ ad709423695e1977d80007fceec9589642e1367daf1b4918a257422abae0b4bc 11759 apt-notifier_23.06.01_amd64.buildinfo
+Files:
+ b6c489da41f81fa14d32f2e81a99fd2e 1617 admin optional apt-notifier_23.06.01.dsc
+ 3fa2c3ab9468924951ff90e77a76898f 135604 admin optional apt-notifier_23.06.01.tar.xz
+ 37e1e17f6d4720cc86443e37d73f8a6d 234424 admin optional apt-notifier_23.06.01_all.deb
+ c55069779c4c1f204e8c8da8dc93fcde 11759 admin optional apt-notifier_23.06.01_amd64.buildinfo
+Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmSFCxYTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6d0CD/94yjgwLwMkXSAo61mhTi3i1gHiy+jD
+L16VDqArguNP9m2Tk6GrC3jMI69ohvUHtsfy3Kqx5SVlknNCc3zAqd3yX89vReTT
+VH0XUse8EVpz2OzE6nXspcbIF4ONsCYaX29G66j9i4vm9RACvKekmeTsuzXdmrZk
+5Ibq6rDaTsphT6OV1N6fDZw4tZiAyTW4BH6lR4Yv4s4+RoqtYK3kp0W2dKbbcVBs
+RArBOK6gBw1SJfsran86UnBwAr86tFlq/Ao5UA1wHNVsV/bLi3k5QhyvHdTloL5t
+wSfqwDHTuTPn4/IxA8uHyzJ4uK01y7UFLDJDx3PWzqqUf740gFpIRWwqK9pgOSiu
+7qiV1iex4/4UAdenw0ZwaTo2nL5ZER6uDhtxEogCT8z+UvU9/BwctRqzkPuFP9Pa
+p16msu8wHQDZ96FxN8pQKxoPBMXYtGDf+aM56RtmQ66HHPEbaTnmw/eSpHIkcScD
+RFnyOg/AHMVNk8uwcGU3MBYq8bnUVDgFRe3AMJVjLEkhdAcjJFPWKef0LXCsNEGo
+FyTTwawFWeqzK8e1+EJv5utJja+AKDH6FEEWWQphWY+q+zCvYMoVUCVTKnPq+cmU
+Yj0wA/US14H1s68qfOCJdWUdPbxySMiQWoE6tgE4xXX3KhVLFGY8Zgg5qLZGC6iK
+9Z8ZkGk4HdnuRQ==
+=0mGX
+-----END PGP SIGNATURE-----
