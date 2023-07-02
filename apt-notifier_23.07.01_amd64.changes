@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 01 Jul 2023 19:54:12 -0500
+Source: apt-notifier
+Binary: apt-notifier
+Architecture: source all
+Version: 23.07.01
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ apt-notifier - tray applet to notify of system and application updates
+Changes:
+ apt-notifier (23.07.01) mx; urgency=medium
+ .
+   * set max size for yad and terminal window
+   * fix nala's --raw-dpkg switch for kernel- and dkms-upgrades
+Checksums-Sha1:
+ 92b929002fa2d65eaaac9326a30536facb530250 1617 apt-notifier_23.07.01.dsc
+ e9bd21d9c2c81c09e89098339945d75037f04002 133784 apt-notifier_23.07.01.tar.xz
+ a26b3f182e3a790e3cb3749b1589d061770d4095 234728 apt-notifier_23.07.01_all.deb
+ b7f0a50c120b9bc48610ddc7ce6588c260eef85f 11759 apt-notifier_23.07.01_amd64.buildinfo
+Checksums-Sha256:
+ 9b086ea1af2ad475a8fa82ac5dfd6bd431757099d4f7142a9a85101f74570d19 1617 apt-notifier_23.07.01.dsc
+ ef045d347e0a25d8e82100d524b00f160faa0ab7664b3439dd71464a9bebdf54 133784 apt-notifier_23.07.01.tar.xz
+ 6f91cfe2c904de72e65d2476779b346e9aa4472d5ab471c5e4fe7e802d72b91b 234728 apt-notifier_23.07.01_all.deb
+ f2a114d8ae4febcfda2675bc4c6a6810b4f7663d2ff2236a088d245b03b9c04c 11759 apt-notifier_23.07.01_amd64.buildinfo
+Files:
+ 7926b991d107991a41198861976ad320 1617 admin optional apt-notifier_23.07.01.dsc
+ a9bd588392f3ccf669252e0b093a637d 133784 admin optional apt-notifier_23.07.01.tar.xz
+ a815021d503293f5236ae2e4ff745a89 234728 admin optional apt-notifier_23.07.01_all.deb
+ 4f764b57fa9ec1196b0465490f95d124 11759 admin optional apt-notifier_23.07.01_amd64.buildinfo
+Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmSgzt0THGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6fEuD/9PGNQH+W1hyzmISIKwEWfNRn10TDjt
+wueiLbtYzi+AgziBgl37SMcJbncFpyvyicVclMGFZ/D3p+lBqBhaMiYqmytPf1GP
+NpQgP1u3eq8a9QbRJQwo69S32SsHmCHoJgjQ5ywz7GiI3EA0LwbGkuhiRBL6P6m+
+GF79cJlm8sO+LskjE6xXYwOUsf7TGIH99GHuQ8oYjGlTdVQ6ocPEikqYZ5I6/uuf
+77DoYgKiHGwrioxst9Y3vqCvPj1tgfoY0yIcRpRbVoUPpej0jl7i1X9eszVCkdgx
+TBs1qFd53+J+yZgYZaHbslrXV/ZVqya5ynGR5WVK8S8Ejd+aeJQJ8MNpJzdGz/HF
+55iF/4iJdy0PaSbhTdNPjqOq9W5MES2S0dOOhbA5t1UZ7BRZwjP9NoHS/grhtB28
+AmyBlH36rC4zpaEmDRWi2bTOPJeR2o2XuFymIerW6uu8/xv3KuvUb9rIXLpy8/uw
+dUA3tzXQyRrmat/JnjmVcqNZqL9aSoY2jnuF7ch6F2ZKCmTRTDYg2RX9Gs6ijXm0
+AxfRPb7IgRr2aRnkic0WEllG4bB182px4MRgVhMplWb1wtdU0XgwIn/r8Mu52idA
+FksxJc2nVqGtddOCNpQiPzt0Lbz4oPbklObS0VD95hVdgj/7fjXrIf+8hRa9jNBs
+AOsWBqnGenVxPw==
+=w1nX
+-----END PGP SIGNATURE-----
