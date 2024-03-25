@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 25 Mar 2024 17:59:12 -0400
+Source: apt-notifier
+Binary: apt-notifier
+Architecture: source all
+Version: 24.03.01
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ apt-notifier - tray applet to notify of system and application updates
+Changes:
+ apt-notifier (24.03.01) mx; urgency=medium
+ .
+   * generate svg iconset with rsvg-convert instead of inkscape
+   * translations refresh
+Checksums-Sha1:
+ 27d52a3af7a22b2d731e6778810e768ec5ffbb70 1622 apt-notifier_24.03.01.dsc
+ 76b5655953bbd2a281d4bff040a0e643e3aa4238 135216 apt-notifier_24.03.01.tar.xz
+ 4078b2873d912dff60443239e5be838c64e10ae6 303580 apt-notifier_24.03.01_all.deb
+ 23d819b64c3cf41ace4f937352cb22d563b1030e 7753 apt-notifier_24.03.01_amd64.buildinfo
+Checksums-Sha256:
+ 730d1be8c56851e6dc987720c71725692a0270c75f03b0bea0a2f3bceff9b4f9 1622 apt-notifier_24.03.01.dsc
+ e322c4673d0fb2d9f4575262921dbd9d0934cbea3d03b0f3f5e5c7c167ea6dd6 135216 apt-notifier_24.03.01.tar.xz
+ f7c08dde3fa4ac5d910eab48bc524f4e5d4ff029b29723a75247dfd300070819 303580 apt-notifier_24.03.01_all.deb
+ f95a14498849573cb70adc8be2f20c357a036df1a6c6d6cd759694fd08c59ff6 7753 apt-notifier_24.03.01_amd64.buildinfo
+Files:
+ e2b89004d491b9cd094fa6d4e54095ff 1622 admin optional apt-notifier_24.03.01.dsc
+ 41343db5ad84f528292df191b6370be9 135216 admin optional apt-notifier_24.03.01.tar.xz
+ 4488684bffacf52c6ca8836df27787c6 303580 admin optional apt-notifier_24.03.01_all.deb
+ 5b080f7efec10b4815aab5dd5b4484e3 7753 admin optional apt-notifier_24.03.01_amd64.buildinfo
+Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmYB+4QTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6bl9D/0cvvt3A8gK/LgBae8SCLBcyp+5B61i
+kQK/6bDD7OMv6ZQ+QtDxdSPJpfYRut6M7m4JWAz8pOvnV/Sxno4VMvdlRYrW5/5d
+wj8Rs0Sr3rjGgjjaFd4dbACrZRimXaeohoo2eGNpR/NDhb83DrHwYzXwfFDOsUQw
+r01n1vO0EsUtjOviqNiNX82nCUlafUrH1AnTTBx+HOF/LZfFIgRhlqU2zhghKvzB
+AIlDCANiRcJXdF7VW+Sw2FYJksX2XignoGfV81u6qib0JLBcHgMnXBjMd8dHQIwK
+mXLKs3cG9vJ6W4z5pw32o/rChrbOWWU40SFLbfK9X2XYrh/qiIgQhoBU/dLarKL3
+zix9L0Id3TdA+CqyXjmqyo+63qBETShFeR9NZ+74mvp6XHik9XQp6rL74zCFp1Ae
+GzvkMNd0vp2XulTmERsOUx/Thn84UihI/iPaAYQzq+ViPmG1guQVCFrvzgH8U7JZ
++t80PC0oJATBK6yBcQrNeZzh7EoLw7ssQn5eLvuRYAzl+ItdPiC38se+SXsh4U+P
+5A1ZPMNmUj2amXW/UHQy2zAodD03ziWMx0aav+vY9xhz/HWUN6woqH9D4u/L4g7v
+ymKnMvDz/Alv9jNbYQn7thC3r/iY6dkFUgr/nB0wcAl8BOj8pxxIOibzvBImHd4t
+yeWNjJyI2kwjCQ==
+=tEi7
+-----END PGP SIGNATURE-----
