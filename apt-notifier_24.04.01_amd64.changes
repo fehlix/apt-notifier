@@ -1,0 +1,58 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 24 Apr 2024 17:14:17 -0400
+Source: apt-notifier
+Binary: apt-notifier
+Architecture: source all
+Version: 24.04.01
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ apt-notifier - tray applet to notify of system and application updates
+Changes:
+ apt-notifier (24.04.01) mx; urgency=medium
+ .
+   * Add line break in the countdown line for smaller display size
+   * Suppress first blank line in the terminal
+   * Add terminal support for lxterminal, mate-terminal, qterminal,
+     terminator and zutty
+   * Check qterminal version is recent enough
+   * Use of xfce4 terminal as fallback if installed
+Checksums-Sha1:
+ 8b4d63898f5aa274f993ecf453277dff47f07485 1622 apt-notifier_24.04.01.dsc
+ 8a31cf500c0854bcb589de4a0df7b9341e513b74 135768 apt-notifier_24.04.01.tar.xz
+ 228cab20e747d6c1f167c2ea44188c3ee10b3289 304136 apt-notifier_24.04.01_all.deb
+ 98a39c3830a7d2085c973f739545f5d9ef860141 7770 apt-notifier_24.04.01_amd64.buildinfo
+Checksums-Sha256:
+ ed763e4ba6fba5117dde23161ce13f7c76cb098f4a9de2edb70d13401afdab0c 1622 apt-notifier_24.04.01.dsc
+ dddad72adde8c7d40b33675aa92f321526fcd83e140b53e0937df62fad10d3aa 135768 apt-notifier_24.04.01.tar.xz
+ 8790633f4bb5247cdb655e55900a36d04e7076f7347b5101071291fb0869721e 304136 apt-notifier_24.04.01_all.deb
+ bd8292412dac3d2291ad058591800d35b9a19991130d180995cc62e412b577c9 7770 apt-notifier_24.04.01_amd64.buildinfo
+Files:
+ 2fdd97dd28d264f700719dcf1ea77614 1622 admin optional apt-notifier_24.04.01.dsc
+ b5a560eb8a89e58ddbaf2c589eebcc31 135768 admin optional apt-notifier_24.04.01.tar.xz
+ 2f4234418b49a85c5acf2973cc800b67 304136 admin optional apt-notifier_24.04.01_all.deb
+ 3f54827a9070c1361c9db081a248abd3 7770 admin optional apt-notifier_24.04.01_amd64.buildinfo
+Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmYqkSkTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6S7wEACE/vQoVfT7JvcTHeNWYR0OWtgjtNrG
+ZS2fET5gF4QBKiTfo0Zf19brjZcHjnCMjsrKuJQP26wSEvVCoiLLygFD7MBYDScC
+WHJyEMv5vUSKGE4VjrxMg4n2wQxO8vPJsVWBnyhrEDZ/CZ5ItdzujHoUsyAaZssC
+6cXmAHezI/AiGbTFT5o7Z0GzFk9iZAgHXpVdTAWj288CArWO7Z9kbZY4id1t64S6
+1ASbezzeYeuARvLCfEYr5HEt9xTx3D1UxALCg8rrxzuO57O34qX8qil+AskrcSL8
+Qj4B+fXiWlodmIz5hD3OBimx4cGTqc7wHX8c4ApT0UsHGTWIHLwtWwrEghOQRtqL
+r7jJO6v8HGoQY0uQT0G5Tx9rtTW7wfgY63ivHcU+X2TGVSopyfGqFAKmRwHaUxoG
+4nkzkgyzUORn1e68PDzGFVEB+khpY3+vqKvrMClutgIrqA+NyjJL2uQXyQQ6CTJT
+zbCQ/BXso8B+sFIodr20H1xuSUzBHBxaIkB40pzUNxHH/PCgxS6JGdudMVMqzwPD
+sVDr+NJrN4hU+auUJ56koM7xCQWCTs1qTuoL66jVX4eoZ93bX8iCItlY3i8MSa1g
+qGdG3R2Rdu22XLumBZ47psMQh90luQxh79kOpU634otkOtI4s5UwjXRou9xYXv6Q
+ujcLL4k8ylG4DQ==
+=1Qci
+-----END PGP SIGNATURE-----
