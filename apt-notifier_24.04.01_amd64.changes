@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Wed, 24 Apr 2024 17:14:17 -0400
+Date: Thu, 25 Apr 2024 20:53:31 -0400
 Source: apt-notifier
 Binary: apt-notifier
 Architecture: source all
@@ -20,39 +20,40 @@ Changes:
    * Suppress first blank line in the terminal
    * Add terminal support for lxterminal, mate-terminal, qterminal,
      terminator and zutty
-   * Check qterminal version is recent enough
-   * Use of xfce4 terminal as fallback if installed
+   * Check whether the qterminal version is up-to-date enough
+   * Use of the xfce4 terminal as a fallback, if installed
+   * Adjust unprivileged view of the auto-upgrade logs
 Checksums-Sha1:
- 8b4d63898f5aa274f993ecf453277dff47f07485 1622 apt-notifier_24.04.01.dsc
- 8a31cf500c0854bcb589de4a0df7b9341e513b74 135768 apt-notifier_24.04.01.tar.xz
- 228cab20e747d6c1f167c2ea44188c3ee10b3289 304136 apt-notifier_24.04.01_all.deb
- 98a39c3830a7d2085c973f739545f5d9ef860141 7770 apt-notifier_24.04.01_amd64.buildinfo
+ e72c0158942e8142528ecc531584a48e89d25c62 1622 apt-notifier_24.04.01.dsc
+ 24cdfebbf58705d32e7cfa8b86df203223d0471c 136000 apt-notifier_24.04.01.tar.xz
+ 5da2cf6e14167fc315ee3196af8a81a53e369160 304472 apt-notifier_24.04.01_all.deb
+ 3b1fb8bec2bcfc503eedf3b2811bcf5328bf3955 7770 apt-notifier_24.04.01_amd64.buildinfo
 Checksums-Sha256:
- ed763e4ba6fba5117dde23161ce13f7c76cb098f4a9de2edb70d13401afdab0c 1622 apt-notifier_24.04.01.dsc
- dddad72adde8c7d40b33675aa92f321526fcd83e140b53e0937df62fad10d3aa 135768 apt-notifier_24.04.01.tar.xz
- 8790633f4bb5247cdb655e55900a36d04e7076f7347b5101071291fb0869721e 304136 apt-notifier_24.04.01_all.deb
- bd8292412dac3d2291ad058591800d35b9a19991130d180995cc62e412b577c9 7770 apt-notifier_24.04.01_amd64.buildinfo
+ fe07d9788550a57a7fd3b0489b5df15bf7300f30c6ac284661f9c9b63ccfa1b6 1622 apt-notifier_24.04.01.dsc
+ ec4466738e0392e8b5ae9ca8a7095bd35e6b18617ef06e2c20c56ed3a428a7fa 136000 apt-notifier_24.04.01.tar.xz
+ 205544433313352559cccb692ce12ea9a531b01c818c62db87c13d431f7a534e 304472 apt-notifier_24.04.01_all.deb
+ c6fa2c3a6fedf6ea2baa904e83e96af2160d630dc5cba7c4681a3aaf29afd73e 7770 apt-notifier_24.04.01_amd64.buildinfo
 Files:
- 2fdd97dd28d264f700719dcf1ea77614 1622 admin optional apt-notifier_24.04.01.dsc
- b5a560eb8a89e58ddbaf2c589eebcc31 135768 admin optional apt-notifier_24.04.01.tar.xz
- 2f4234418b49a85c5acf2973cc800b67 304136 admin optional apt-notifier_24.04.01_all.deb
- 3f54827a9070c1361c9db081a248abd3 7770 admin optional apt-notifier_24.04.01_amd64.buildinfo
+ 6925d357a17155487beea0bef96c6817 1622 admin optional apt-notifier_24.04.01.dsc
+ 9133ce363a9c8a3916e5c351f2908bc7 136000 admin optional apt-notifier_24.04.01.tar.xz
+ 52621375a38ac6526e666a924934d730 304472 admin optional apt-notifier_24.04.01_all.deb
+ 57f5065ba2e9303465a4deb6e13054f9 7770 admin optional apt-notifier_24.04.01_amd64.buildinfo
 Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmYqkSkTHGZlaGxpeEBt
-eGxpbnV4Lm9yZwAKCRAvV48brJ2b6S7wEACE/vQoVfT7JvcTHeNWYR0OWtgjtNrG
-ZS2fET5gF4QBKiTfo0Zf19brjZcHjnCMjsrKuJQP26wSEvVCoiLLygFD7MBYDScC
-WHJyEMv5vUSKGE4VjrxMg4n2wQxO8vPJsVWBnyhrEDZ/CZ5ItdzujHoUsyAaZssC
-6cXmAHezI/AiGbTFT5o7Z0GzFk9iZAgHXpVdTAWj288CArWO7Z9kbZY4id1t64S6
-1ASbezzeYeuARvLCfEYr5HEt9xTx3D1UxALCg8rrxzuO57O34qX8qil+AskrcSL8
-Qj4B+fXiWlodmIz5hD3OBimx4cGTqc7wHX8c4ApT0UsHGTWIHLwtWwrEghOQRtqL
-r7jJO6v8HGoQY0uQT0G5Tx9rtTW7wfgY63ivHcU+X2TGVSopyfGqFAKmRwHaUxoG
-4nkzkgyzUORn1e68PDzGFVEB+khpY3+vqKvrMClutgIrqA+NyjJL2uQXyQQ6CTJT
-zbCQ/BXso8B+sFIodr20H1xuSUzBHBxaIkB40pzUNxHH/PCgxS6JGdudMVMqzwPD
-sVDr+NJrN4hU+auUJ56koM7xCQWCTs1qTuoL66jVX4eoZ93bX8iCItlY3i8MSa1g
-qGdG3R2Rdu22XLumBZ47psMQh90luQxh79kOpU634otkOtI4s5UwjXRou9xYXv6Q
-ujcLL4k8ylG4DQ==
-=1Qci
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmYq/3cTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6Zn1D/9oJDER9tB76Y4+7wniZ8TwPcBjF/wy
+UxujVpSBvO1cYqPFKIn/LNPJXD6uEg/knuXVVM0+rb1o1oeUMAQUO5nJqbZCAR/X
+IcoAMPyjtnQ/slGs26vXSQj3XuN//8HhhJ4ZF8iFJf1PJrrysVlpTzd5ZVhXEUFx
+tA4om0Db8rPYL8UO1ae9tkWmhahKxgnXyVXFQj4TmVuZnJ4jzhJADgMqGx5lY7q2
+beZLU7/wu+w278GT2naEo9uFykT6tVxc4XED+o534LQzoMFs8bi6OOy5d/wWEY3x
+m/YQOAE7qyCJmZzL6wykEz9ehOPmoEDnF4dEIvMnBWIEcDrk+5H6R80yPu1WEUuc
+Ui3qiWDF2yBJ8dOo9S4yqE5wo78cZXhdKx+hnySTh3pJGua54SEwbHKOZHkrX7d0
+mN67JAxWwzW+cv/WkuQ96YZjLIxM8f77ZT2gBrDMUy/HF2A+7DUQcgUC//bfZTvw
+LnSZ8KjdPY9x7Bzv4FAPYglQWqcnkrAgbCg/UVJQ5o6Y36wccUh1O/jv6+yNs7A4
+zNTd20PLJqsWBsny/fw53g8L1kIU7mfX3mGrFAFrZSFccA9mAKYtOkHXXdGcfsdI
+qiqXoqjTGP4bA1GXCky/FNPxuARW73YaYc60TDpqTk+yDRPQhQhKYSIRlN1trtW+
+hdjT2jUoVaMRXQ==
+=9xtY
 -----END PGP SIGNATURE-----
