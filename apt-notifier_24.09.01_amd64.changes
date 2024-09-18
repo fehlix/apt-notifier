@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 18 Sep 2024 14:46:16 -0400
+Source: apt-notifier
+Binary: apt-notifier
+Architecture: source all
+Version: 24.09.01
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ apt-notifier - tray applet to notify of system and application updates
+Changes:
+ apt-notifier (24.09.01) mx; urgency=medium
+ .
+   * Fix: Close only current window with clicking on [x], not MX Updater.
+Checksums-Sha1:
+ a056ea5b95d39f256c6fffebf85bd5c6bee5a934 1622 apt-notifier_24.09.01.dsc
+ 3c23f9487a0413702456c97620d1ccac5451783f 136092 apt-notifier_24.09.01.tar.xz
+ d3456edd64be3f1ba36e650848c538c7288ef578 304624 apt-notifier_24.09.01_all.deb
+ 5ed5e683dd916d63054f1a1ca0033a86100de545 7812 apt-notifier_24.09.01_amd64.buildinfo
+Checksums-Sha256:
+ 79eac2468e3829d5b546831f0f2d82add58e5a3a6f495877440077a1a800d837 1622 apt-notifier_24.09.01.dsc
+ 8d6c6f0ad05fc88d4b5e980f055439e81843863683a148c00fd7b9953cc86b68 136092 apt-notifier_24.09.01.tar.xz
+ ee32a6c88c7c28a5be089ff223a69c08cc70e53fd4b9572c57c1196a8d2f06af 304624 apt-notifier_24.09.01_all.deb
+ f94b03658a52adf0d250ea0a12aed982879c2593a2f8e12042e434b04136db0c 7812 apt-notifier_24.09.01_amd64.buildinfo
+Files:
+ fffcdf134313086ddc06deea3a257060 1622 admin optional apt-notifier_24.09.01.dsc
+ a9a9705b7823a6036ac3604ccf0b878b 136092 admin optional apt-notifier_24.09.01.tar.xz
+ f18b19b42844f503496bd09160d609b4 304624 admin optional apt-notifier_24.09.01_all.deb
+ 87f40db3e091e4d74555aa46f9900c36 7812 admin optional apt-notifier_24.09.01_amd64.buildinfo
+Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmbrJhUTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6a7PD/4+uR1Pw1UpeVy9L7sID9ZjOdTRwv9t
+UL+XuHIwOnNz4xG6Pvc2e0aS2zuIqthDIY39ACMH9Sont+yp/upW+CnG2pvN4NbM
+X8d4JbgG++j3RZKgxlmMlp0E4eNicEP4ZodYVSX9202YULVN8D7GoNid/6nhLfqM
+L50qTuNjn+N90lWwz+wP3WdMlJk1EbZFnRllNcTPszWoVoJKlmkCG9BgdJtOq2Ef
++mHsUg9cICqVvPoG+Mj4S3zdsyl5y7xr9iclKHy13O4Kz9HDdxp3QU8/6csiTvCV
+UFo+J8V1w0Evh8qL+toh0vO52/2x9J8hwBzqcpL+s2ByMxj1D9WwiYezW4leJmAk
+N0MckXV9U5N2BDOQPkx/frTWt46N7Hth8BsjRyK4auY8i2a3L/0Vix1lC/HoXDGf
+FZMf/RTYwlmqH68yDkHQhVDd4QxriQFC/64ubCz3BrfWYlX64nkux8BhKzsjbk0h
+51z1Wb6mq+HeBe4FjfrAG6IkD5CfQoiwpA2yUZoj1xNs70GCUho2o9lOgiM7jHlJ
+e1SwNbZkZuEmzMKII3ddfuzP/4ugc6ToaYTf9lqoX8S+VMJvrQaYA5UUYN7L2wqQ
+Ai44dIFAkQz/GJWkpLyr8kkLjJvMuueT2BJimqLO8687za6AE+yyoQ9/89PFSQvw
+UIOX1v2w89JyYg==
+=t8ty
+-----END PGP SIGNATURE-----
